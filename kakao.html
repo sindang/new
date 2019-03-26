@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <span onclick="sharing();">카카오톡 공유하기</span>
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js">
+    </script>
+
+    <script>
+      Kakao.init('194c2a529ec1139dc6164010fe675e66');
+
+      Kakao.Link.sendTalkLink({
+        label:
+        image:{
+          src='http://dn.api1.kage.kakao.co.kr/14/dn/btqaWmFftyx/tBbQPH764Maw2R6IBhXd6K/o.jpg',
+          width: '300',
+          height: '200'
+
+        },
+        webButton: {
+          text:
+          url:
+        }
+      })
+    </script>
+  </body>
+</html>
+
+
+<a href="http://dn.api1.kage.kakao.co.kr/14/dn/btqaWmFftyx/tBbQPH764Maw2R6IBhXd6K/o.jpg">http://dn.api1.kage.kakao.co.kr/14/dn/btqaWmFftyx/tBbQPH764Maw2R6IBhXd6K/o.jpg</a>
