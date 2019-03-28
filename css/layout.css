@@ -16,6 +16,8 @@
    h. Contact Section
    i. Footer
 
+   j. epilogue
+
 ===================================================================== */
 
 /* ------------------------------------------------------------------ */
@@ -168,18 +170,19 @@ ul#nav li a {
    padding: 8px 13px;
    line-height: 32px;
 	text-decoration: none;
-   text-align: left;
-   color: #fff;
+    text-align: left;
+  color: #fff;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
 	-o-transition: color .2s ease-in-out;
 	-ms-transition: color .2s ease-in-out;
 	transition: color .2s ease-in-out;
-}
+} */
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
+
 
 
 /* ------------------------------------------------------------------ */
@@ -261,7 +264,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.work, .skill {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
@@ -326,12 +329,12 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .photoshop {
-  	width: 60%;
+  	width: 95%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
 .illustrator {
-  	width: 55%;
+  	width: 90%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
@@ -346,23 +349,41 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 95%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
 .jquery {
-  	width: 50%;
+  	width: 70%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
 
+.javascript {
+  	width: 80%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
+}
+
+.premiere {
+  	width: 40%;
+  	-moz-animation: premiere 2s ease;
+  	-webkit-animation: premiere 2s ease;
+}
+
+.aftereffect {
+  	width: 40%;
+  	-moz-animation: aftereffect 2s ease;
+  	-webkit-animation: aftereffect 2s ease;
+}
+
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 95%;  }
 }
 @-moz-keyframes illustrator {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 90%;  }
 }
 @-moz-keyframes wordpress {
   0%   { width: 0px;  }
@@ -374,20 +395,37 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 95%;  }
 }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
 }
+
+@-moz-keyframes javascript {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+
+@-moz-keyframes premiere {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+
+@-moz-keyframes aftereffect {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+
+
 
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 95%;  }
 }
 @-webkit-keyframes illustrator {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 90%;  }
 }
 @-webkit-keyframes wordpress {
   0%   { width: 0px;  }
@@ -399,11 +437,26 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 95%;  }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
+}
+
+@-webkit-keyframes javascript {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+
+@-webkit-keyframes premiere {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+
+@-webkit-keyframes aftereffect {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -581,7 +634,7 @@ ul#nav li.current a { color: #F06000; }
 /* f. Call To Action Section
 /* ------------------------------------------------------------------ */
 
-#call-to-action {
+/* #call-to-action {
    background: #212121;
    padding-top: 66px;
    padding-bottom: 48px;
@@ -617,14 +670,14 @@ ul#nav li.current a { color: #F06000; }
 #call-to-action p {
    color: #636363;
    font-size: 17px;
-}
+} */
 /*#
 call-to-action .button {
 	color:#fff;
    background: #0D0D0D;
 }
 */
-#call-to-action .button:hover,
+/* #call-to-action .button:hover,
 #call-to-action .button:active {
    background: #FFFFFF;
    color: #0D0D0D;
@@ -632,7 +685,7 @@ call-to-action .button {
 #call-to-action p span {
 	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
-}
+} */
 
 /* ------------------------------------------------------------------
 /* g. Testimonials
@@ -787,7 +840,7 @@ call-to-action .button {
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
 
-#contact {
+/* #contact {
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
@@ -830,7 +883,7 @@ call-to-action .button {
 
 
 /* contact form */
-#contact form { margin-bottom: 30px; }
+/* #contact form { margin-bottom: 30px; }
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
@@ -902,7 +955,7 @@ call-to-action .button {
 
 
 /* Twitter Feed */
-#twitter {
+/* #twitter {
    margin-top: 12px;
    padding: 0;
 }
@@ -917,7 +970,7 @@ call-to-action .button {
    font: 13px/36px 'opensans-regular', Sans-serif;
    color: #474747 !important;
    border: none;
-}
+}  */
 
 
 /* ------------------------------------------------------------------ */
@@ -1003,3 +1056,40 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+
+
+/* ------------------------------------------------------------------ */
+/* c. About Section
+/* ------------------------------------------------------------------ */
+
+#epilogue {
+   background: #212121;
+   padding-top: 66px;
+   padding-bottom: 48px;
+   overflow: hidden;
+}
+
+#epilogue h2 {
+   font: 28px/36px 'opensans-bold', sans-serif;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+}
+
+#epilogue hr {
+
+   margin: 18px auto 24px auto;
+   border-color: #2F2D2E;
+   border-color: rgba(150, 150, 150, .1);
+}
+
+#epilogue p {
+   color: #7A7A7A;
+}
+
+
+#epilogue .epen {
+   color: #7A7A7A;
+   font-family: 'librebaskerville-italic', serif;
+   font-size: 18px;
+}
