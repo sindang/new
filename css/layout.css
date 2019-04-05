@@ -1,9 +1,5 @@
 /*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
+
 
    TOC:
    a. General Styles
@@ -35,7 +31,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/header-background-04.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -365,6 +361,12 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: javascript 2s ease;
 }
 
+.java {
+  	width: 70%;
+  	-moz-animation: java 2s ease;
+  	-webkit-animation: java 2s ease;
+}
+
 .premiere {
   	width: 40%;
   	-moz-animation: premiere 2s ease;
@@ -372,7 +374,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .aftereffect {
-  	width: 40%;
+  	width: 35%;
   	-moz-animation: aftereffect 2s ease;
   	-webkit-animation: aftereffect 2s ease;
 }
@@ -407,6 +409,11 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 80%;  }
 }
 
+@-moz-keyframes java {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+
 @-moz-keyframes premiere {
   0%   { width: 0px;  }
   100% { width: 40%;  }
@@ -414,7 +421,7 @@ ul#nav li.current a { color: #F06000; }
 
 @-moz-keyframes aftereffect {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width: 35%;  }
 }
 
 
@@ -449,6 +456,11 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 80%;  }
 }
 
+@-webkit-keyframes java {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+
 @-webkit-keyframes premiere {
   0%   { width: 0px;  }
   100% { width: 40%;  }
@@ -456,7 +468,7 @@ ul#nav li.current a { color: #F06000; }
 
 @-webkit-keyframes aftereffect {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width: 35%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -692,8 +704,8 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
-   /* background-size: cover !important; */
+   background: #1F1F1F url(../images/testimonials-bg-01.jpg) no-repeat center center;
+   background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
 
