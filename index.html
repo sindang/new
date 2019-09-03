@@ -1,430 +1,439 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8">
-  	  <title>NEWD - Portfolio</title>
-  	<meta name="description" content="">
-  	<meta name="author" content="">
 
-     <!-- Mobile Specific Metas
+<head>
+  <meta charset="utf-8">
+  <title>NEWD - Portfolio</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
      ================================================== -->
-  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  	<!-- CSS
+  <!-- CSS
       ================================================== -->
-<!--
+  <!--
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
 
-      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
-      <!-- 국내아이콘 라이브러리 xeicon -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <!-- 국내아이콘 라이브러리 xeicon -->
 
-     <link rel="stylesheet" href="css/default.css">
-  	 <link rel="stylesheet" href="css/layout.css">
-     <link rel="stylesheet" href="css/media-queries.css">
-     <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/media-queries.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
 
-     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR" rel="stylesheet">
 
 
-     <!-- Script
+  <!-- Script
      ================================================== -->
-  	 <script src="js/modernizr.js"></script>
+  <script src="js/modernizr.js"></script>
 
-     <!-- Favicons
+  <!-- Favicons
   	 ================================================== -->
-  	 <link rel="shortcut icon" href="favicon_1.png" >
+  <link rel="shortcut icon" href="favicon_1.png">
 
-     <style>
-       #myname {
-         font-size: 13px;
-         font-weight: bold;
-         font-family: 'Nanum Gothic', sans-serif;
-         /* padding-right: 4px; */
-         color: #7A7A7A;
-       }
+  <style>
+    #myname {
+      font-size: 13px;
+      font-weight: bold;
+      font-family: 'Nanum Gothic', sans-serif;
+      /* padding-right: 4px; */
+      color: #7A7A7A;
+    }
 
-       #mynameen {
-         font-size: 13px;
-         /* font-weight: bold; */
-         /* font-family: 'Nanum Gothic', sans-serif; */
-         color: #7A7A7A;
-       }
+    #mynameen {
+      font-size: 13px;
+      /* font-weight: bold; */
+      /* font-family: 'Nanum Gothic', sans-serif; */
+      color: #7A7A7A;
+    }
 
-       #vertical {
-         font-weight: bold;
-         font-family: 'Nanum Gothic', sans-serif;
-         padding: 3px;
-         color: #7A7A7A;
-       }
+    #vertical {
+      font-weight: bold;
+      font-family: 'Nanum Gothic', sans-serif;
+      padding: 3px;
+      color: #7A7A7A;
+    }
 
-       #introduce {
-         font-size: 13px;
-         line-height: 180%;
-         font-family: 'Nanum Gothic', sans-serif;
-         color: #7A7A7A;
-       }
+    #introduce {
+      font-size: 13px;
+      line-height: 180%;
+      font-family: 'Nanum Gothic', sans-serif;
+      color: #7A7A7A;
+    }
 
-       #ep01 {
-         font-family: 'Nanum Gothic', sans-serif;
-         color: #7A7A7A;
-       }
+    #ep01 {
+      font-family: 'Nanum Gothic', sans-serif;
+      color: #7A7A7A;
+    }
 
-       .service01{
-         font-family: 'Nanum Gothic', sans-serif;
-         color: #7A7A7A;
-       }
+    .service01 {
+      font-family: 'Nanum Gothic', sans-serif;
+      color: #7A7A7A;
+    }
 
-       .service02{
-         font-family: 'Nanum Gothic', sans-serif;
-         color: #7A7A7A;
-       }
+    .service02 {
+      font-family: 'Nanum Gothic', sans-serif;
+      color: #7A7A7A;
+    }
 
-       .exper{
-         font-weight: bold;
-         font-family: 'Nanum Gothic', sans-serif;
-         color: black;
-       }
+    .exper {
+      font-weight: bold;
+      font-family: 'Nanum Gothic', sans-serif;
+      color: black;
+    }
 
-       .expcon{
-         font-size: 13px;
-         line-height: 180%;
-         font-family: 'Nanum Gothic', sans-serif;
-         color: #7A7A7A;
-       }
+    .expcon {
+      font-size: 13px;
+      line-height: 180%;
+      font-family: 'Nanum Gothic', sans-serif;
+      color: #7A7A7A;
+    }
 
+    .popup-modal .description-box .detail-ex {
+      font-size: 13px;
+      line-height: 160%;
+      font-family: 'Nanum Gothic', sans-serif;
+      color: #7A7A7A;
+    }
 
+  </style>
 
-     </style>
+</head>
 
-  </head>
+<body>
 
-  <body>
-
-     <!-- Header
+  <!-- Header
      ================================================== -->
-     <header id="home">
+  <header id="home">
 
-        <nav id="nav-wrap">
+    <nav id="nav-wrap">
 
-           <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-  	       <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+      <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-           <ul id="nav" class="nav">
-              <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-              <li><a class="smoothscroll" href="#about">About</a></li>
-  	          <li><a class="smoothscroll" href="#resume">Resume</a></li>
-              <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
-              <li><a class="smoothscroll" href="#epilogue">Epilogue</a></li>
-              <!-- <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li> -->
+      <ul id="nav" class="nav">
+        <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+        <li><a class="smoothscroll" href="#about">About</a></li>
+        <li><a class="smoothscroll" href="#resume">Resume</a></li>
+        <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+        <li><a class="smoothscroll" href="#epilogue">Epilogue</a></li>
+        <!-- <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li> -->
 
-              <!-- <li><a class="smoothscroll" href="#contact">Contact</a></li> -->
-           </ul> <!-- end #nav -->
+        <!-- <li><a class="smoothscroll" href="#contact">Contact</a></li> -->
+      </ul> <!-- end #nav -->
 
-        </nav> <!-- end #nav-wrap -->
+    </nav> <!-- end #nav-wrap -->
 
-        <div class="row banner">
-           <div class="banner-text">
-             <h1 class="responsive-headline">I'm &lt;DA&gt; YOUNG</h1>
-             <h3>I'm a <span>web publisher</span> and <span>web designer</span> for clients who want a awesome and effective visual. Let's <a class="smoothscroll" href="#about">start scrolling</a> and learn more <a class="smoothscroll" href="#about">about me</a>.
-             </h3>
-              <hr /> <!-- 수평선 -->
-              <ul class="social">
-                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                 <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                 <!-- <li><a href="#"><i class="fab fa-twitch"></i></a></li> -->
-                 <!-- <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+    <div class="row banner">
+      <div class="banner-text">
+        <h1 class="responsive-headline">I'm &lt;DA&gt; YOUNG</h1>
+        <h3>I'm a <span>web publisher</span> and <span>web designer</span> for clients who want a awesome and effective visual. Let's <a class="smoothscroll" href="#about">start scrolling</a> and learn more <a class="smoothscroll" href="#about">about
+            me</a>.
+        </h3>
+        <hr /> <!-- 수평선 -->
+        <ul class="social">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          <!-- <li><a href="#"><i class="fab fa-twitch"></i></a></li> -->
+          <!-- <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                  <li><a href="#"><i class="fab fa-telegram-plane"></i></a></li> -->
-                 <!-- <li><a href="#"><i class="fab fa-tumblr"></i></a></li> -->
-                 <!-- <li><a href="#"><i class="fab fa-linkedin"></i></a></li> -->
+          <!-- <li><a href="#"><i class="fab fa-tumblr"></i></a></li> -->
+          <!-- <li><a href="#"><i class="fab fa-linkedin"></i></a></li> -->
 
-                 <!-- <li><a href="#"><i class="fab fa-dribbble"></i></a></li> -->
-                 <!-- <li><a href="#"><i class="fab fa-line"></i></a></li> -->
-                 <!-- <li><a href="#"><i class="xi-kakaotalk"></i></a></li> -->
-                 <li><a href="mailto:miniboo2@naver.com"><i class="far fa-envelope"></i></a></li>
-                 <!-- <li><a href="sms:01067291223"><i class="far fa-comment-alt"></i></a></li> -->
-                 <li><a href="tel:01067291223"><i class="fas fa-mobile-alt"></i></a></li>
+          <!-- <li><a href="#"><i class="fab fa-dribbble"></i></a></li> -->
+          <!-- <li><a href="#"><i class="fab fa-line"></i></a></li> -->
+          <!-- <li><a href="#"><i class="xi-kakaotalk"></i></a></li> -->
+          <li><a href="mailto:miniboo2@naver.com"><i class="far fa-envelope"></i></a></li>
+          <!-- <li><a href="sms:01067291223"><i class="far fa-comment-alt"></i></a></li> -->
+          <li><a href="tel:01067291223"><i class="fas fa-mobile-alt"></i></a></li>
 
-              </ul>
-           </div>
+        </ul>
+      </div>
+    </div>
+
+    <p class="scrolldown">
+      <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+    </p>
+
+  </header> <!-- Header End -->
+
+
+  <!-- About Section
+     ================================================== -->
+  <section id="about">
+
+    <div class="row">
+
+      <div class="three columns">
+
+        <img class="profile-pic" src="images/profile_003.JPG" alt="" />
+
+      </div>
+
+      <div class="nine columns main-col">
+
+        <h2>About Me</h2>
+        <div>
+          <span id="myname">신다영</span>
+          <span id="vertical">&#124;</span>
+          <span id="mynameen">Shin Da Young</span>
         </div>
 
-        <p class="scrolldown">
-           <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+        <p>
+          <div id="introduce">
+            왼손잡이. 집순이. 웹기획. 웹디자인. 웹퍼블리싱. 코딩. 포토샵. 일러스트. 영상편집. 그림. 컴퓨터. 수집. 프랜즈. 빅뱅이론. 그들이사는세상. 월드오브워크래프트. 왕좌의게임. 미카와시마. 야자와아이. 히가시노게이고. 요츠바. 사진. 에피톤프로젝트. 창작욕구. 책. 역사. 킥보드. 자전거. 수영. 무한도전. 분석적인 사고능력. 대상에 깊이 빠지는 객관적 자세. 날카로운 비평. 쉽게 보여주는 맨얼굴. 괴짜. 지적호기심.
+            합리적인 일처리. 공평. 세련된 개성. 수선스런 배려. 낙관적성향. 원만한 인간관계. 발달된 두뇌. 논리 정연. 자기 합리화. 새로운 지식에 대한 흥미. 여러가지 분야에 능통. 상식과 정보의 수집. 노력보다는 요령. 편안함. 눈치가 빠름. 상대적. 꿈타령 그리고 <span style="font-weight:bold;">꿈</span>. </div>
         </p>
 
-     </header> <!-- Header End -->
-
-
-     <!-- About Section
-     ================================================== -->
-     <section id="about">
-
         <div class="row">
 
-           <div class="three columns">
+          <div class="columns contact-details">
 
-              <img class="profile-pic"  src="images/profile_003.JPG" alt="" />
-
-           </div>
-
-           <div class="nine columns main-col">
-
-              <h2>About Me</h2>
-              <div>
-                <span id="myname">신다영</span>
-                <span id="vertical">&#124;</span>
-                <span id="mynameen">Shin Da Young</span>
-              </div>
-
-                <p><div id="introduce">
-                왼손잡이. 집순이. 웹기획. 웹디자인. 웹퍼블리싱. 코딩. 포토샵. 일러스트. 영상편집. 그림. 컴퓨터. 수집. 프랜즈. 빅뱅이론. 그들이사는세상. 월드오브워크래프트. 왕좌의게임. 미카와시마. 야자와아이. 히가시노게이고. 요츠바. 사진. 에피톤프로젝트. 창작욕구. 책. 역사. 킥보드. 자전거. 수영. 무한도전. 분석적인 사고능력. 대상에 깊이 빠지는 객관적 자세. 날카로운 비평. 쉽게 보여주는 맨얼굴. 괴짜. 지적호기심. 합리적인 일처리. 공평. 세련된 개성. 수선스런 배려. 낙관적성향. 원만한 인간관계. 발달된 두뇌. 논리 정연. 자기 합리화. 새로운 지식에 대한 흥미. 여러가지 분야에 능통. 상식과 정보의 수집. 노력보다는 요령. 편안함. 눈치가 빠름. 상대적. 꿈타령 그리고 <span style="font-weight:bold;">꿈</span>. </div>
-              </p>
-
-              <div class="row">
-
-                 <div class="columns contact-details">
-
-                    <h2>Contact Details</h2>
-                    <p class="address" id="addressinfo">
-  						   <span>Phone: +82 01 6729 1223</span><br>
-  						   <span>Email: miniboo2@naver.com</span><br>
-  						   <!-- <span>Kakao: gleambrush39</span><br>
+            <h2>Contact Details</h2>
+            <p class="address" id="addressinfo">
+              <span>Phone: +82 01 6729 1223</span><br>
+              <span>Email: miniboo2@naver.com</span><br>
+              <!-- <span>Kakao: gleambrush39</span><br>
                  <span>sindang.github.io/new</span> -->
-  					   </p>
+            </p>
 
-                 </div>
-
-
-              </div> <!-- end row -->
-
-           </div> <!-- end .main-col -->
-
-        </div>
-
-     </section> <!-- About Section End-->
+          </div>
 
 
-     <!-- Resume Section
+        </div> <!-- end row -->
+
+      </div> <!-- end .main-col -->
+
+    </div>
+
+  </section> <!-- About Section End-->
+
+
+  <!-- Resume Section
      ================================================== -->
-     <section id="resume">
+  <section id="resume">
 
 
 
-        <!-- Work
+    <!-- Work
        ================================================== -->
-        <div class="row work">
+    <div class="row work">
 
-           <div class="three columns header-col">
-              <h1><span>Experience</span></h1>
-           </div>
+      <div class="three columns header-col">
+        <h1><span>Experience</span></h1>
+      </div>
 
-           <div class="nine columns main-col">
+      <div class="nine columns main-col">
 
-              <div class="row item">
+        <div class="row item">
 
-                 <div class="twelve columns">
+          <div class="twelve columns">
 
-                    <h3><span class="exper">지엠피프로그래픽스</span></h3>
-                    <p class="info">Web Publisher <span>&bull;</span> <em class="date">April 2016 - June 2019</em></p>
+            <h3><span class="exper">지엠피프로그래픽스</span></h3>
+            <p class="info">Web Publisher <span>&bull;</span> <em class="date">April 2016 - June 2019</em></p>
 
-                    <p><span class="expcon">
-                    홈페이지 관리, 웹디자인 (http://www.kl-solution.com), 상품 디자인 및 기획
-                  </span></p>
+            <p><span class="expcon">
+                홈페이지 관리, 웹디자인 (http://www.kl-solution.com), 상품 디자인 및 기획
+              </span></p>
 
-                 </div>
+          </div>
 
-              </div> <!-- item end -->
+        </div> <!-- item end -->
 
-              <div class="row item">
+        <div class="row item">
 
-                 <div class="twelve columns">
+          <div class="twelve columns">
 
-                    <h3><span class="exper">메지메지</span></h3>
-                    <p class="info">Web Designer <span>&bull;</span> <em class="date">March 2013 - February 2016</em></p>
+            <h3><span class="exper">메지메지</span></h3>
+            <p class="info">Web Designer <span>&bull;</span> <em class="date">March 2013 - February 2016</em></p>
 
-                    <p><span class="expcon">
-                    홈페이지 구축 및 유지보수, 웹디자인, 인터넷 쇼핑에 관련된 전반적인 업무 (상품기획, 홍보, 고객응대)
-                  </span></p>
+            <p><span class="expcon">
+                홈페이지 구축 및 유지보수, 웹디자인, 인터넷 쇼핑에 관련된 전반적인 업무 (상품기획, 홍보, 고객응대)
+              </span></p>
 
-                 </div>
+          </div>
 
-              </div> <!-- item end -->
-
-
-              <div class="row item">
-
-                 <div class="twelve columns">
-
-                    <h3><span class="exper">큰날개</span></h3>
-                    <p class="info">JAVA Programmer <span>&bull;</span> <em class="date">April 2012 - December 2012</em></p>
-
-                    <p><span class="expcon">
-                     한국철도공사 글로리 교통카드 본 사업 (개발 : 광역철도 수입관리 시스템 구축)
-                   </span></p>
-
-                 </div>
-
-              </div> <!-- item end -->
+        </div> <!-- item end -->
 
 
-              <div class="row item">
+        <div class="row item">
 
-                 <div class="twelve columns">
+          <div class="twelve columns">
 
-                    <h3>IDS & Trust</h3>
-                    <p class="info">JAVA Programmer <span>&bull;</span> <em class="date">April 2006 - September 2007</em></p>
+            <h3><span class="exper">큰날개</span></h3>
+            <p class="info">JAVA Programmer <span>&bull;</span> <em class="date">April 2012 - December 2012</em></p>
 
-                    <p><span class="expcon">
-                      대웅제약, 매일유업 등 모회사 및 고객사 관련시스템 유지보수 (JAVA, asp, .net), Help Desk 시스템 기획 및 구축
-                    </span></p>
+            <p><span class="expcon">
+                한국철도공사 글로리 교통카드 본 사업 (개발 : 광역철도 수입관리 시스템 구축)
+              </span></p>
 
-                 </div>
+          </div>
 
-              </div> <!-- item end -->
-
-           </div> <!-- main-col end -->
-
-        </div> <!-- End Work -->
+        </div> <!-- item end -->
 
 
-        <!-- Skills
+        <div class="row item">
+
+          <div class="twelve columns">
+
+            <h3>IDS & Trust</h3>
+            <p class="info">JAVA Programmer <span>&bull;</span> <em class="date">April 2006 - September 2007</em></p>
+
+            <p><span class="expcon">
+                대웅제약, 매일유업 등 모회사 및 고객사 관련시스템 유지보수 (JAVA, asp, .net), Help Desk 시스템 기획 및 구축
+              </span></p>
+
+          </div>
+
+        </div> <!-- item end -->
+
+      </div> <!-- main-col end -->
+
+    </div> <!-- End Work -->
+
+
+    <!-- Skills
          ================================================== -->
-        <div class="row skill">
+    <div class="row skill">
 
-           <div class="three columns header-col">
-              <h1><span>Skills</span></h1>
-           </div>
+      <div class="three columns header-col">
+        <h1><span>Skills</span></h1>
+      </div>
 
-           <div class="nine columns main-col">
+      <div class="nine columns main-col">
 
-              <!-- <p>test
+        <!-- <p>test
               </p> -->
 
-  				<div class="bars">
+        <div class="bars">
 
-  				   <ul class="skills">
-  					  <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
-              <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
-  						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
-  						<li><span class="bar-expand css"></span><em>CSS</em></li>
-              <!-- <li><span class="bar-expand wordpress"></span><em>Wordpress</em></li> -->
-              <li><span class="bar-expand javascript"></span><em>javascript</em></li>
-              <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
-              <li><span class="bar-expand java"></span><em>JAVA</em></li>
-              <li><span class="bar-expand premiere"></span><em>Premiere</em></li>
-              <li><span class="bar-expand aftereffect"></span><em>Aftereffect</em></li>
-  					</ul>
+          <ul class="skills">
+            <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
+            <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
+            <li><span class="bar-expand html5"></span><em>HTML5</em></li>
+            <li><span class="bar-expand css"></span><em>CSS</em></li>
+            <!-- <li><span class="bar-expand wordpress"></span><em>Wordpress</em></li> -->
+            <li><span class="bar-expand javascript"></span><em>javascript</em></li>
+            <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+            <li><span class="bar-expand java"></span><em>JAVA</em></li>
+            <li><span class="bar-expand premiere"></span><em>Premiere</em></li>
+            <li><span class="bar-expand aftereffect"></span><em>Aftereffect</em></li>
+          </ul>
 
-  				</div><!-- end skill-bars -->
+        </div><!-- end skill-bars -->
 
-  			</div> <!-- main-col end -->
+      </div> <!-- main-col end -->
 
-        </div> <!-- End skills -->
+    </div> <!-- End skills -->
 
-        <!-- Education
+    <!-- Education
         - ================================================== -->
-        <div class="row education">
+    <div class="row education">
 
-           <div class="three columns header-col">
-              <h1><span>Service</span></h1>
-           </div>
+      <div class="three columns header-col">
+        <h1><span>Service</span></h1>
+      </div>
 
-           <div class="nine columns main-col">
+      <div class="nine columns main-col">
 
-              <div class="row item">
+        <div class="row item">
 
-                 <div class="twelve columns">
+          <div class="twelve columns">
 
-                    <h3>Creative Web</h3>
-                    <p class="info">Web Design<span>&bull;</span>Web Pulishing
-                    <!-- <em class="date">April 2004</em> -->
-                    </p>
+            <h3>Creative Web</h3>
+            <p class="info">Web Design<span>&bull;</span>Web Pulishing
+              <!-- <em class="date">April 2004</em> -->
+            </p>
 
-                    <p><span class="expcon">
+            <p><span class="expcon">
 
-                    반응형웹, 모바일웹 등의 플랫폼에 최적화된 홈페이지 디자인 작업 및 웹퍼블리싱까지 고객이 원하는 전략을 충실하게 수행하여 성공적인 Business가 되도록 최선을 다하고 있습니다.
-                  </span></p>
+                반응형웹, 모바일웹 등의 플랫폼에 최적화된 홈페이지 디자인 작업 및 웹퍼블리싱까지 고객이 원하는 전략을 충실하게 수행하여 성공적인 Business가 되도록 최선을 다하고 있습니다.
+              </span></p>
 
-                 </div>
+          </div>
 
-              </div> <!-- item end -->
+        </div> <!-- item end -->
 
-              <div class="row item">
+        <div class="row item">
 
-                 <div class="twelve columns">
+          <div class="twelve columns">
 
-                    <h3>System Management</h3>
-                    <p class="info">Maintenance<span>&bull;</span>Repair
-                    <!-- <em class="date">March 2003</em> -->
-                    </p>
+            <h3>System Management</h3>
+            <p class="info">Maintenance<span>&bull;</span>Repair
+              <!-- <em class="date">March 2003</em> -->
+            </p>
 
-                    <p><span class="expcon">
-                      Creative Design (Web/Mobile, UX/UI), HTML5 / CSS3 웹표준, 모바일웹 퍼블리싱, Javascript, 웹디자인, 웹홈페이지 유지보수 및 관리
-                    </span></p>
+            <p><span class="expcon">
+                Creative Design (Web/Mobile, UX/UI), HTML5 / CSS3 웹표준, 모바일웹 퍼블리싱, Javascript, 웹디자인, 웹홈페이지 유지보수 및 관리
+              </span></p>
 
-                 </div>
+          </div>
 
-              </div> <!-- item end -->
+        </div> <!-- item end -->
 
-           </div> <!-- main-col end -->
+      </div> <!-- main-col end -->
 
-        </div> <!-- End Education -->
-
-
-
-     </section> <!-- Resume Section End-->
+    </div> <!-- End Education -->
 
 
-     <!-- Portfolio Section
+
+  </section> <!-- Resume Section End-->
+
+
+  <!-- Portfolio Section
      ================================================== -->
-     <section id="portfolio">
+  <section id="portfolio">
 
-        <div class="row">
+    <div class="row">
 
-           <div class="twelve columns collapsed">
+      <div class="twelve columns collapsed">
 
-              <h1>Check Out Some of My Works.</h1>
+        <h1>Check Out Some of My Works.</h1>
 
-              <!-- portfolio-wrapper -->
-              <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+        <!-- portfolio-wrapper -->
+        <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
-            	   <div class="columns portfolio-item">
-                    <div class="item-wrap">
+          <div class="columns portfolio-item">
+            <div class="item-wrap">
 
-                       <a href="#modal-00" title="">
-                          <img alt="" src="images/portfolio/portfolio13_won.jpg">
-                          <div class="overlay">
-                             <div class="portfolio-item-meta">
-            					      <h5>WONMUSIC</h5>
-                                <p>Web Development</p>
-            					   </div>
-                          </div>
-                          <div class="link-icon"><i class="icon-plus"></i></div>
-                       </a>
+              <a href="#modal-00" title="">
+                <img alt="" src="images/portfolio/portfolio13_won.jpg">
+                <div class="overlay">
+                  <div class="portfolio-item-meta">
+                    <h5>WONMUSIC</h5>
+                    <p>System Management</p>
+                  </div>
+                </div>
+                <div class="link-icon"><i class="icon-plus"></i></div>
+              </a>
 
-                    </div>
-            		</div> <!-- item end -->
+            </div>
+          </div> <!-- item end -->
 
-                 <div class="columns portfolio-item">
-                    <div class="item-wrap">
+          <div class="columns portfolio-item">
+            <div class="item-wrap">
 
-                       <a href="#modal-01" title="">
-                          <img alt="" src="images/portfolio/portfolio01_care.jpg">
-                          <div class="overlay">
-                             <div class="portfolio-item-meta">
-            					      <h5>Care</h5>
-                                <p>Web Development</p>
-            					   </div>
-                          </div>
-                          <div class="link-icon"><i class="icon-plus"></i></div>
-                       </a>
+              <a href="#modal-01" title="">
+                <img alt="" src="images/portfolio/portfolio01_care.jpg">
+                <div class="overlay">
+                  <div class="portfolio-item-meta">
+                    <h5>Care</h5>
+                    <p>Web Development</p>
+                  </div>
+                </div>
+                <div class="link-icon"><i class="icon-plus"></i></div>
+              </a>
 
-                    </div>
-            		</div> <!-- < item end > -->
+            </div>
+          </div> <!-- < item end > -->
 
-                 <!-- <div class="columns portfolio-item">
+          <!-- <div class="columns portfolio-item">
                     <div class="item-wrap">
 
                        <a href="#modal-03" title="">
@@ -441,41 +450,41 @@
                     </div>
             		</div> < item end > -->
 
-                 <div class="columns portfolio-item">
-                    <div class="item-wrap">
+          <div class="columns portfolio-item">
+            <div class="item-wrap">
 
-                       <a href="#modal-04" title="">
-                          <img alt="" src="images/portfolio/portfolio02_bose.jpg">
-                          <div class="overlay">
-                             <div class="portfolio-item-meta">
-            					      <h5>Bose</h5>
-                                <p>renewal</p>
-            					   </div>
-                          </div>
-                          <div class="link-icon"><i class="icon-plus"></i></div>
-                       </a>
+              <a href="#modal-04" title="">
+                <img alt="" src="images/portfolio/portfolio02_bose.jpg">
+                <div class="overlay">
+                  <div class="portfolio-item-meta">
+                    <h5>Bose</h5>
+                    <p>renewal</p>
+                  </div>
+                </div>
+                <div class="link-icon"><i class="icon-plus"></i></div>
+              </a>
 
-                    </div>
-            		</div> <!-- item end -->
+            </div>
+          </div> <!-- item end -->
 
-                 <div class="columns portfolio-item">
-                    <div class="item-wrap">
+          <div class="columns portfolio-item">
+            <div class="item-wrap">
 
-                       <a href="#modal-05" title="">
-                          <img alt="" src="images/portfolio/portfolio03_ydesign.jpg">
-                          <div class="overlay">
-                             <div class="portfolio-item-meta">
-            					      <h5>YDesign</h5>
-                                <p>renewal</p>
-            					   </div>
-                          </div>
-                          <div class="link-icon"><i class="icon-plus"></i></div>
-                       </a>
+              <a href="#modal-05" title="">
+                <img alt="" src="images/portfolio/portfolio03_ydesign.jpg">
+                <div class="overlay">
+                  <div class="portfolio-item-meta">
+                    <h5>YDesign</h5>
+                    <p>renewal</p>
+                  </div>
+                </div>
+                <div class="link-icon"><i class="icon-plus"></i></div>
+              </a>
 
-                    </div>
-            		</div> <!-- item end -->
+            </div>
+          </div> <!-- item end -->
 
-                 <!-- <div class="columns portfolio-item">
+          <!-- <div class="columns portfolio-item">
                     <div class="item-wrap">
 
                        <a href="#modal-06" title="">
@@ -492,24 +501,24 @@
                     </div>
             		</div> < item end > -->
 
-                 <div class="columns portfolio-item">
-                    <div class="item-wrap">
+          <div class="columns portfolio-item">
+            <div class="item-wrap">
 
-                       <a href="#modal-07" title="">
-                          <img alt="" src="images/portfolio/portfolio04_nature.jpg">
-                          <div class="overlay">
-                             <div class="portfolio-item-meta">
-            					      <h5>NATURE REPUBLIC</h5>
-                                <p>renewal</p>
-            					   </div>
-                          </div>
-                          <div class="link-icon"><i class="icon-plus"></i></div>
-                       </a>
+              <a href="#modal-07" title="">
+                <img alt="" src="images/portfolio/portfolio04_nature.jpg">
+                <div class="overlay">
+                  <div class="portfolio-item-meta">
+                    <h5>NATURE REPUBLIC</h5>
+                    <p>renewal</p>
+                  </div>
+                </div>
+                <div class="link-icon"><i class="icon-plus"></i></div>
+              </a>
 
-                    </div>
-            		</div> <!-- item end -->
+            </div>
+          </div> <!-- item end -->
 
-                 <!-- <div class="columns portfolio-item">
+          <!-- <div class="columns portfolio-item">
                     <div class="item-wrap">
 
                        <a href="#modal-08" title="">
@@ -526,92 +535,92 @@
                     </div>
             		</div>  < item end > -->
 
-                <div class="columns portfolio-item">
-                   <div class="item-wrap">
+          <div class="columns portfolio-item">
+            <div class="item-wrap">
 
-                      <a href="#modal-09" title="">
-                         <img alt="" src="images/portfolio/portfolio05_han.jpg">
-                         <div class="overlay">
-                            <div class="portfolio-item-meta">
-                           <h5>Hanwha</h5>
-                               <p>renewal</p>
-                        </div>
-                         </div>
-                         <div class="link-icon"><i class="icon-plus"></i></div>
-                      </a>
-
-                   </div>
-               </div>  <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-10" title="">
-                        <img alt="" src="images/portfolio/portfolio06_osul.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-                          <h5>Osulloc</h5>
-                              <p>renewal</p>
-                       </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+              <a href="#modal-09" title="">
+                <img alt="" src="images/portfolio/portfolio05_han.jpg">
+                <div class="overlay">
+                  <div class="portfolio-item-meta">
+                    <h5>Hanwha</h5>
+                    <p>renewal</p>
                   </div>
-              </div>  <!-- item end -->
-
-              <div class="columns portfolio-item">
-                 <div class="item-wrap">
-
-                    <a href="#modal-11" title="">
-                       <img alt="" src="images/portfolio/portfolio07_canon.jpg">
-                       <div class="overlay">
-                          <div class="portfolio-item-meta">
-                         <h5>Canon</h5>
-                             <p>Web Design</p>
-                      </div>
-                       </div>
-                       <div class="link-icon"><i class="icon-plus"></i></div>
-                    </a>
-
-                 </div>
-             </div>  <!-- item end -->
-
-             <div class="columns portfolio-item">
-                <div class="item-wrap">
-
-                   <a href="#modal-12" title="">
-                      <img alt="" src="images/portfolio/portfolio08_kraze.jpg">
-                      <div class="overlay">
-                         <div class="portfolio-item-meta">
-                        <h5>Kraze</h5>
-                            <p>Web Design</p>
-                     </div>
-                      </div>
-                      <div class="link-icon"><i class="icon-plus"></i></div>
-                   </a>
-
                 </div>
-            </div>  <!-- item end -->
+                <div class="link-icon"><i class="icon-plus"></i></div>
+              </a>
 
-            <div class="columns portfolio-item">
-               <div class="item-wrap">
+            </div>
+          </div> <!-- item end -->
 
-                  <a href="#modal-13" title="">
-                     <img alt="" src="images/portfolio/portfolio09_kun.jpg">
-                     <div class="overlay">
-                        <div class="portfolio-item-meta">
-                       <h5>Konkuk University</h5>
-                           <p>Web Design</p>
-                    </div>
-                     </div>
-                     <div class="link-icon"><i class="icon-plus"></i></div>
-                  </a>
+          <div class="columns portfolio-item">
+            <div class="item-wrap">
 
-               </div>
-           </div>  <!-- item end -->
+              <a href="#modal-10" title="">
+                <img alt="" src="images/portfolio/portfolio06_osul.jpg">
+                <div class="overlay">
+                  <div class="portfolio-item-meta">
+                    <h5>Osulloc</h5>
+                    <p>renewal</p>
+                  </div>
+                </div>
+                <div class="link-icon"><i class="icon-plus"></i></div>
+              </a>
 
-           <!-- <div class="columns portfolio-item">
+            </div>
+          </div> <!-- item end -->
+
+          <div class="columns portfolio-item">
+            <div class="item-wrap">
+
+              <a href="#modal-11" title="">
+                <img alt="" src="images/portfolio/portfolio07_canon.jpg">
+                <div class="overlay">
+                  <div class="portfolio-item-meta">
+                    <h5>Canon</h5>
+                    <p>Web Design</p>
+                  </div>
+                </div>
+                <div class="link-icon"><i class="icon-plus"></i></div>
+              </a>
+
+            </div>
+          </div> <!-- item end -->
+
+          <div class="columns portfolio-item">
+            <div class="item-wrap">
+
+              <a href="#modal-12" title="">
+                <img alt="" src="images/portfolio/portfolio08_kraze.jpg">
+                <div class="overlay">
+                  <div class="portfolio-item-meta">
+                    <h5>Kraze</h5>
+                    <p>Web Design</p>
+                  </div>
+                </div>
+                <div class="link-icon"><i class="icon-plus"></i></div>
+              </a>
+
+            </div>
+          </div> <!-- item end -->
+
+          <div class="columns portfolio-item">
+            <div class="item-wrap">
+
+              <a href="#modal-13" title="">
+                <img alt="" src="images/portfolio/portfolio09_kun.jpg">
+                <div class="overlay">
+                  <div class="portfolio-item-meta">
+                    <h5>Konkuk University</h5>
+                    <p>Web Design</p>
+                  </div>
+                </div>
+                <div class="link-icon"><i class="icon-plus"></i></div>
+              </a>
+
+            </div>
+          </div> <!-- item end -->
+
+          <!-- <div class="columns portfolio-item">
               <div class="item-wrap">
 
                  <a href="#modal-14" title="">
@@ -629,384 +638,282 @@
           </div>  < item end > -->
 
           <div class="columns portfolio-item">
-             <div class="item-wrap">
-
-                <a href="#modal-15" title="">
-                   <img alt="" src="images/portfolio/portfolio10_gyeng.jpg">
-                   <div class="overlay">
-                      <div class="portfolio-item-meta">
-                     <h5>Gyeongbokgung Palace</h5>
-                         <p>Web Design</p>
-                  </div>
-                   </div>
-                   <div class="link-icon"><i class="icon-plus"></i></div>
-                </a>
-
-             </div>
-         </div>  <!-- item end -->
-
-         <div class="columns portfolio-item">
             <div class="item-wrap">
 
-               <a href="#modal-16" title="">
-                  <img alt="" src="images/portfolio/portfolio11_obsul.jpg">
-                  <div class="overlay">
-                     <div class="portfolio-item-meta">
-                    <h5>ABSOLUT</h5>
-                        <p>Web Design</p>
-                 </div>
-                  </div>
-                  <div class="link-icon"><i class="icon-plus"></i></div>
-               </a>
-
-            </div>
-        </div>  <!-- item end -->
-
-        <div class="columns portfolio-item">
-           <div class="item-wrap">
-
-              <a href="#modal-17" title="">
-                 <img alt="" src="images/portfolio/portfolio12_vitamin.jpg">
-                 <div class="overlay">
-                    <div class="portfolio-item-meta">
-                   <h5>vitaminwater</h5>
-                       <p>Web Design</p>
-                </div>
-                 </div>
-                 <div class="link-icon"><i class="icon-plus"></i></div>
-              </a>
-
-           </div>
-       </div>  <!-- item end -->
-
-       <!-- <div class="columns portfolio-item">
-          <div class="item-wrap">
-
-             <a href="#modal-18" title="">
-                <img alt="" src="images/portfolio/app_002.jpg">
+              <a href="#modal-15" title="">
+                <img alt="" src="images/portfolio/portfolio10_gyeng.jpg">
                 <div class="overlay">
-                   <div class="portfolio-item-meta">
-                  <h5>AppDesign</h5>
-                      <p>UI/UX Design</p>
-               </div>
+                  <div class="portfolio-item-meta">
+                    <h5>Gyeongbokgung Palace</h5>
+                    <p>Web Design</p>
+                  </div>
                 </div>
                 <div class="link-icon"><i class="icon-plus"></i></div>
-             </a>
+              </a>
 
-          </div>
-      </div>  < item end > -->
-
-      <!-- <div class="columns portfolio-item">
-         <div class="item-wrap">
-
-            <a href="#modal-19" title="">
-               <img alt="" src="images/portfolio/app_003.jpg">
-               <div class="overlay">
-                  <div class="portfolio-item-meta">
-                 <h5>AppDesign</h5>
-                     <p>UI/UX Design</p>
-              </div>
-               </div>
-               <div class="link-icon"><i class="icon-plus"></i></div>
-            </a>
-
-         </div>
-     </div>  < item end > -->
-
-     <!-- <div class="columns portfolio-item">
-        <div class="item-wrap">
-
-           <a href="#modal-20" title="">
-              <img alt="" src="images/portfolio/app_004.jpg">
-              <div class="overlay">
-                 <div class="portfolio-item-meta">
-                <h5>AppDesign</h5>
-                    <p>UI/UX Design</p>
-             </div>
-              </div>
-              <div class="link-icon"><i class="icon-plus"></i></div>
-           </a>
-
-        </div>
-    </div>  < item end > -->
-
-    <!-- <div class="columns portfolio-item">
-       <div class="item-wrap">
-
-          <a href="#modal-21" title="">
-             <img alt="" src="images/portfolio/app_001.jpg">
-             <div class="overlay">
-                <div class="portfolio-item-meta">
-               <h5>AppDesign</h5>
-                   <p>UI/UX Design</p>
             </div>
-             </div>
-             <div class="link-icon"><i class="icon-plus"></i></div>
-          </a>
+          </div> <!-- item end -->
 
-       </div>
-   </div>  < item end > -->
+          <div class="columns portfolio-item">
+            <div class="item-wrap">
+
+              <a href="#modal-16" title="">
+                <img alt="" src="images/portfolio/portfolio11_obsul.jpg">
+                <div class="overlay">
+                  <div class="portfolio-item-meta">
+                    <h5>ABSOLUT</h5>
+                    <p>Web Design</p>
+                  </div>
+                </div>
+                <div class="link-icon"><i class="icon-plus"></i></div>
+              </a>
+
+            </div>
+          </div> <!-- item end -->
+
+          <div class="columns portfolio-item">
+            <div class="item-wrap">
+
+              <a href="#modal-17" title="">
+                <img alt="" src="images/portfolio/portfolio12_vitamin.jpg">
+                <div class="overlay">
+                  <div class="portfolio-item-meta">
+                    <h5>vitaminwater</h5>
+                    <p>Web Design</p>
+                  </div>
+                </div>
+                <div class="link-icon"><i class="icon-plus"></i></div>
+              </a>
+
+            </div>
+          </div> <!-- item end -->
 
 
 
-              </div> <!-- portfolio-wrapper end -->
+        </div> <!-- portfolio-wrapper end -->
 
-           </div> <!-- twelve columns end -->
+      </div> <!-- twelve columns end -->
 
 
-           <!-- Modal Popup
+      <!-- Modal Popup
   	     ================================================== -->
 
-         <div id="modal-00" class="popup-modal mfp-hide">
+      <div id="modal-00" class="popup-modal mfp-hide">
 
-          <img class="scale-with-grid" src="images/portfolio/modals/portfolio13_won_m.jpg" alt="" />
+        <img class="scale-with-grid" src="images/portfolio/modals/portfolio13_won_m.jpg" alt="" />
 
-          <div class="description-box">
-            <h4>WONMUSIC</h4>
-            <p>Web Development
-              <!-- <img src="images/portfolio/modals/m-coffee.jpg"> -->
-            </p>
-               <!-- <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span> -->
-          </div>
+        <div class="description-box">
+          <h4>WONMUSIC</h4>
+          <p>Shpping mall System Management</p>
+          <div class="detail-ex">현재 운영되고 있는 악기전문점 쇼핑몰 입니다.</div>
+        </div>
 
-            <div class="link-box">
-               <a href="http://www.wonmusic.co.kr">Details</a>
-             <a class="popup-modal-dismiss">Close</a>
-            </div>
+        <div class="link-box">
+          <a href="http://www.wonmusic.co.kr">Details</a>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
 
-         </div><!-- modal-01 End -->
+      </div><!-- modal-00 End -->
 
 
-           <div id="modal-01" class="popup-modal mfp-hide">
+      <div id="modal-01" class="popup-modal mfp-hide">
 
-  		      <img class="scale-with-grid" src="images/portfolio/modals/portfolio01_care_m.jpg" alt="" />
+        <img class="scale-with-grid" src="images/portfolio/modals/portfolio01_care_m.jpg" alt="" />
 
-  		      <div class="description-box">
-  			      <h4>Care</h4>
-  			      <p>renewal
-                <!-- <img src="images/portfolio/modals/m-coffee.jpg"> -->
-              </p>
-                 <!-- <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span> -->
-  		      </div>
+        <div class="description-box">
+          <h4>Care</h4>
+          <p>Responsive Web - renewal
+          </p>
+          <div class="detail-ex">해당 포트폴리오는 기존에 있는 사이트를 참조하여 리뉴얼하는 방식으로 제작하였습니다.<br />
+            개인 작업물로 해당기업과는 관련없는 사이트입니다.</div>
+        </div>
 
-              <div class="link-box">
-                 <a href="https://sindang.github.io/site03">Details</a>
-  		         <a class="popup-modal-dismiss">Close</a>
-              </div>
+        <div class="link-box">
+          <a href="https://sindang.github.io/site03">Details</a>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
 
-  	      </div><!-- modal-01 End -->
+      </div><!-- modal-01 End -->
 
-           <div id="modal-02" class="popup-modal mfp-hide">
 
-  		      <img class="scale-with-grid" src="images/portfolio/modals/2018_design_002_m.jpg" alt="" />
+      <div id="modal-04" class="popup-modal mfp-hide">
 
-  		      <div class="description-box">
-  			      <h4>Bose</h4>
-  			      <p>renewal</p>
-                 <!-- <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span> -->
-  		      </div>
+        <img class="scale-with-grid" src="images/portfolio/modals/portfolio02_bose_m.jpg" alt="" />
 
-              <div class="link-box">
-                 <a href="#">Details</a>
-  		         <a class="popup-modal-dismiss">Close</a>
-              </div>
+        <div class="description-box">
+          <h4>Bose</h4>
+          <p>Responsive Web - renewal</p>
+          <div class="detail-ex">해당 포트폴리오는 기존에 있는 사이트를 참조하여 리뉴얼하는 방식으로 제작하였습니다.<br />
+            개인 작업물로 해당기업과는 관련없는 사이트입니다.</div>
+        </div>
 
-  	      </div><!-- modal-02 End -->
+        <div class="link-box">
+          <a href="https://sindang.github.io/portfolio_bose/page/main.html">Details</a>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
 
-           <div id="modal-03" class="popup-modal mfp-hide">
+      </div><!-- modal-04 End -->
 
-  		      <img class="scale-with-grid" src="images/portfolio/modals/2018_design_003_m.jpg" alt="" />
+      <div id="modal-05" class="popup-modal mfp-hide">
 
-  		      <div class="description-box">
-  			      <h4>KitKat</h4>
-  			      <p>redesign</p>
-                 <!-- <span class="categories"><i class="fa fa-tag"></i>Branding</span> -->
-  		      </div>
+        <img class="scale-with-grid" src="images/portfolio/modals/portfolio03_yd_m.jpg" alt="" />
 
-              <div class="link-box">
-                 <a href="#">Details</a>
-  		         <a class="popup-modal-dismiss">Close</a>
-              </div>
+        <div class="description-box">
+          <h4>YDesign</h4>
+          <p>renewal</p>
+          <!-- <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span> -->
+        </div>
 
-  	      </div><!-- modal-03 End -->
+        <div class="link-box">
+          <a href="#">Details</a>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
 
-           <div id="modal-04" class="popup-modal mfp-hide">
+      </div><!-- modal-05 End -->
 
-  		      <img class="scale-with-grid" src="images/portfolio/modals/portfolio02_bose_m.jpg" alt="" />
+      <div id="modal-06" class="popup-modal mfp-hide">
 
-  		      <div class="description-box">
-  			      <h4>Bose</h4>
-  			      <p>renewal</p>
-                 <!-- <span class="categories"><i class="fa fa-tag"></i>Photography</span> -->
-  		      </div>
+        <img class="scale-with-grid" src="images/portfolio/modals/2018_design_006_m.jpg" alt="" />
 
-              <div class="link-box">
-                 <a href="#">Details</a>
-  		         <a class="popup-modal-dismiss">Close</a>
-              </div>
+        <div class="description-box">
+          <h4>NATURE REPUBLIC</h4>
+          <p>redesign</p>
+          <!-- <span class="categories"><i class="fa fa-tag"></i>Photography</span> -->
+        </div>
 
-  	      </div><!-- modal-04 End -->
+        <div class="link-box">
+          <a href="#">Details</a>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
 
-           <div id="modal-05" class="popup-modal mfp-hide">
+      </div><!-- modal-06 End -->
 
-  		      <img class="scale-with-grid" src="images/portfolio/modals/portfolio03_yd_m.jpg" alt="" />
+      <div id="modal-07" class="popup-modal mfp-hide">
 
-  		      <div class="description-box">
-  			      <h4>YDesign</h4>
-  			      <p>renewal</p>
-                 <!-- <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span> -->
-  		      </div>
+        <img class="scale-with-grid" src="images/portfolio/modals/portfolio04_nature_m.jpg" alt="" />
 
-              <div class="link-box">
-                 <a href="#">Details</a>
-  		         <a class="popup-modal-dismiss">Close</a>
-              </div>
+        <div class="description-box">
+          <h4>NATURE REPUBLIC</h4>
+          <p>renewal</p>
+          <!-- <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span> -->
+        </div>
 
-  	      </div><!-- modal-05 End -->
+        <div class="link-box">
+          <a href="#">Details</a>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
 
-           <div id="modal-06" class="popup-modal mfp-hide">
+      </div><!-- modal-07 End -->
 
-  		      <img class="scale-with-grid" src="images/portfolio/modals/2018_design_006_m.jpg" alt="" />
+      <div id="modal-08" class="popup-modal mfp-hide">
 
-  		      <div class="description-box">
-  			      <h4>NATURE REPUBLIC</h4>
-  			      <p>redesign</p>
-                 <!-- <span class="categories"><i class="fa fa-tag"></i>Photography</span> -->
-  		      </div>
+        <img class="scale-with-grid" src="images/portfolio/modals/2018_design_008_m.jpg" alt="" />
 
-              <div class="link-box">
-                 <a href="#">Details</a>
-  		         <a class="popup-modal-dismiss">Close</a>
-              </div>
+        <div class="description-box">
+          <h4>ROOMS</h4>
+          <p>redesign</p>
+          <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
+        </div>
 
-  	      </div><!-- modal-06 End -->
+        <div class="link-box">
+          <a href="#">Details</a>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
 
-           <div id="modal-07" class="popup-modal mfp-hide">
+      </div><!-- modal-08 End -->
 
-  		      <img class="scale-with-grid" src="images/portfolio/modals/portfolio04_nature_m.jpg" alt="" />
 
-  		      <div class="description-box">
-  			      <h4>NATURE REPUBLIC</h4>
-  			      <p>renewal</p>
-                 <!-- <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span> -->
-  		      </div>
+      <div id="modal-09" class="popup-modal mfp-hide">
 
-              <div class="link-box">
-                 <a href="#">Details</a>
-  		         <a class="popup-modal-dismiss">Close</a>
-              </div>
+        <img class="scale-with-grid" src="images/portfolio/modals/portfolio05_han_m.jpg" alt="" />
 
-  	      </div><!-- modal-07 End -->
+        <div class="description-box">
+          <h4>Hanwha</h4>
+          <p>renewal</p>
+          <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
+        </div>
 
-           <div id="modal-08" class="popup-modal mfp-hide">
+        <div class="link-box">
+          <a href="">Details</a>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
 
-  		      <img class="scale-with-grid" src="images/portfolio/modals/2018_design_008_m.jpg" alt="" />
+      </div><!-- modal-09 End -->
 
-  		      <div class="description-box">
-  			      <h4>ROOMS</h4>
-  			      <p>redesign</p>
-                 <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
-  		      </div>
 
-              <div class="link-box">
-                 <a href="#">Details</a>
-  		         <a class="popup-modal-dismiss">Close</a>
-              </div>
+      <div id="modal-10" class="popup-modal mfp-hide">
 
-  	      </div><!-- modal-08 End -->
+        <img class="scale-with-grid" src="images/portfolio/modals/portfolio06_m.jpg" alt="" />
 
+        <div class="description-box">
+          <h4>Osulloc</h4>
+          <p>redesign</p>
+          <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
+        </div>
 
-          <div id="modal-09" class="popup-modal mfp-hide">
+        <div class="link-box">
+          <a href="#">Details</a>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
 
-           <img class="scale-with-grid" src="images/portfolio/modals/portfolio05_han_m.jpg" alt="" />
+      </div><!-- modal-10 End -->
 
-           <div class="description-box">
-             <h4>Hanwha</h4>
-             <p>renewal</p>
-                <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
-           </div>
 
-             <div class="link-box">
-                <a href="">Details</a>
-              <a class="popup-modal-dismiss">Close</a>
-             </div>
+      <div id="modal-11" class="popup-modal mfp-hide">
 
-         </div><!-- modal-09 End -->
+        <img class="scale-with-grid" src="images/portfolio/modals/portfolio07_m.jpg" alt="" />
 
+        <div class="description-box">
+          <h4>Canon</h4>
+          <p>redesign</p>
+          <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
+        </div>
 
-         <div id="modal-10" class="popup-modal mfp-hide">
+        <div class="link-box">
+          <a href="#">Details</a>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
 
-          <img class="scale-with-grid" src="images/portfolio/modals/portfolio06_m.jpg" alt="" />
+      </div><!-- modal-11 End -->
 
-          <div class="description-box">
-            <h4>Osulloc</h4>
-            <p>redesign</p>
-               <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
-          </div>
 
-            <div class="link-box">
-               <a href="#">Details</a>
-             <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-        </div><!-- modal-10 End -->
-
-
-        <div id="modal-11" class="popup-modal mfp-hide">
-
-         <img class="scale-with-grid" src="images/portfolio/modals/portfolio07_m.jpg" alt="" />
-
-         <div class="description-box">
-           <h4>Canon</h4>
-           <p>redesign</p>
-              <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
-         </div>
-
-           <div class="link-box">
-              <a href="#">Details</a>
-            <a class="popup-modal-dismiss">Close</a>
-           </div>
-
-       </div><!-- modal-11 End -->
-
-
-       <div id="modal-12" class="popup-modal mfp-hide">
+      <div id="modal-12" class="popup-modal mfp-hide">
 
         <img class="scale-with-grid" src="images/portfolio/modals/portfolio08_m.jpg" alt="" />
 
         <div class="description-box">
           <h4>Kraze</h4>
           <p>redesign</p>
-             <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
+          <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
         </div>
 
-          <div class="link-box">
-             <a href="#">Details</a>
-           <a class="popup-modal-dismiss">Close</a>
-          </div>
+        <div class="link-box">
+          <a href="#">Details</a>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
 
       </div><!-- modal-12 End -->
 
 
       <div id="modal-13" class="popup-modal mfp-hide">
 
-       <img class="scale-with-grid" src="images/portfolio/modals/portfolio09_m.jpg" alt="" />
+        <img class="scale-with-grid" src="images/portfolio/modals/portfolio09_m.jpg" alt="" />
 
-       <div class="description-box">
-         <h4>Konkuk University</h4>
-         <p>redesign</p>
-            <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
-       </div>
+        <div class="description-box">
+          <h4>Konkuk University</h4>
+          <p>redesign</p>
+          <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
+        </div>
 
-         <div class="link-box">
-            <a href="#">Details</a>
+        <div class="link-box">
+          <a href="#">Details</a>
           <a class="popup-modal-dismiss">Close</a>
-         </div>
+        </div>
 
-     </div><!-- modal-13 End -->
+      </div><!-- modal-13 End -->
 
 
-     <!-- <div id="modal-14" class="popup-modal mfp-hide">
+      <!-- <div id="modal-14" class="popup-modal mfp-hide">
 
       <img class="scale-with-grid" src="images/portfolio/modals/2016_design_001_m.jpg" alt="" />
 
@@ -1024,276 +931,280 @@
     </div>< modal-14 End > -->
 
 
-    <div id="modal-15" class="popup-modal mfp-hide">
+      <div id="modal-15" class="popup-modal mfp-hide">
 
-     <img class="scale-with-grid" src="images/portfolio/modals/portfolio10_m.jpg" alt="" />
+        <img class="scale-with-grid" src="images/portfolio/modals/portfolio10_m.jpg" alt="" />
 
-     <div class="description-box">
-       <h4>Gyeongbokgung Palace</h4>
-       <p>redesign</p>
+        <div class="description-box">
+          <h4>Gyeongbokgung Palace</h4>
+          <p>redesign</p>
           <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
-     </div>
+        </div>
 
-       <div class="link-box">
+        <div class="link-box">
           <a href="#">Details</a>
-        <a class="popup-modal-dismiss">Close</a>
-       </div>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
 
-   </div><!-- modal-15 End -->
+      </div><!-- modal-15 End -->
 
 
-   <div id="modal-16" class="popup-modal mfp-hide">
+      <div id="modal-16" class="popup-modal mfp-hide">
 
-    <img class="scale-with-grid" src="images/portfolio/modals/portfolio11_m.jpg" alt="" />
+        <img class="scale-with-grid" src="images/portfolio/modals/portfolio11_m.jpg" alt="" />
 
-    <div class="description-box">
-      <h4>ABSOLUT</h4>
-      <p>redesign</p>
-         <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
+        <div class="description-box">
+          <h4>ABSOLUT</h4>
+          <p>redesign</p>
+          <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
+        </div>
+
+        <div class="link-box">
+          <a href="#">Details</a>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
+
+      </div><!-- modal-16 End -->
+
+
+      <div id="modal-17" class="popup-modal mfp-hide">
+
+        <img class="scale-with-grid" src="images/portfolio/modals/portfolio12_m.jpg" alt="" />
+
+        <div class="description-box">
+          <h4>vitaminwater</h4>
+          <p>redesign</p>
+          <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
+        </div>
+
+        <div class="link-box">
+          <a href="#">Details</a>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
+
+      </div><!-- modal-17 End -->
+
+
+      <div id="modal-18" class="popup-modal mfp-hide">
+
+        <img class="scale-with-grid" src="images/portfolio/modals/app_002_m.jpg" alt="" />
+
+        <div class="description-box">
+          <h4>Application</h4>
+          <p>AppDesign</p>
+          <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
+        </div>
+
+        <div class="link-box">
+          <a href="#">Details</a>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
+
+      </div><!-- modal-18 End -->
+
+
+      <div id="modal-19" class="popup-modal mfp-hide">
+
+        <img class="scale-with-grid" src="images/portfolio/modals/app_003_m.jpg" alt="" />
+
+        <div class="description-box">
+          <h4>Application</h4>
+          <p>AppDesign</p>
+          <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
+        </div>
+
+        <div class="link-box">
+          <a href="#">Details</a>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
+
+      </div><!-- modal-19 End -->
+
+
+      <div id="modal-20" class="popup-modal mfp-hide">
+
+        <img class="scale-with-grid" src="images/portfolio/modals/app_004_m.jpg" alt="" />
+
+        <div class="description-box">
+          <h4>Application</h4>
+          <p>AppDesign</p>
+          <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
+        </div>
+
+        <div class="link-box">
+          <a href="#">Details</a>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
+
+      </div><!-- modal-20 End -->
+
+
+      <div id="modal-21" class="popup-modal mfp-hide">
+
+        <img class="scale-with-grid" src="images/portfolio/modals/app_001_m.jpg" alt="" />
+
+        <div class="description-box">
+          <h4>Application</h4>
+          <p>AppDesign</p>
+          <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
+        </div>
+
+        <div class="link-box">
+          <a href="#">Details</a>
+          <a class="popup-modal-dismiss">Close</a>
+        </div>
+
+
+      </div> <!-- modal-20 End -->
+
+
+
+    </div> <!-- row End -->
+
+  </section> <!-- Portfolio Section End-->
+
+
+  <!-- Epilogue Section
+     ================================================== -->
+  <section id="epilogue">
+
+    <div class="row">
+
+      <h2>EPILOGUE</h2>
+      <p>
+        <hr />
+        <div id="ep01">
+          길다면 긴 시간, 디자인을 하고 코딩을 하고 당연한 일을 당연히 하듯, 그러다 만들어진 작업물에 어쩔 수 없는 즐거움을 느낍니다.
+          나는 앞으로도 언제나 좋아하는 것을 더욱더 잘하는 사람이 되기 위한 욕심을 잊지 않고 그렇게 살아가겠구나 하는 그런 마음.
+          이것이 저의 직업이 저에게 주는 변함없는 선물이란 걸 작업이 하나 끝날 때마다 생각합니다. 그래서 저는 오늘도 최상의 결과물을 위해, 더 좋은 창작자가 되기 위해 노력하고 있습니다.
+        </div><br>
+        <div class="epen">Thank you for visiting my page.</div>
+
+      </p>
+
     </div>
 
-      <div class="link-box">
-         <a href="#">Details</a>
-       <a class="popup-modal-dismiss">Close</a>
-      </div>
 
-  </div><!-- modal-16 End -->
-
-
-  <div id="modal-17" class="popup-modal mfp-hide">
-
-   <img class="scale-with-grid" src="images/portfolio/modals/portfolio12_m.jpg" alt="" />
-
-   <div class="description-box">
-     <h4>vitaminwater</h4>
-     <p>redesign</p>
-        <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
-   </div>
-
-     <div class="link-box">
-        <a href="#">Details</a>
-      <a class="popup-modal-dismiss">Close</a>
-     </div>
-
- </div><!-- modal-17 End -->
-
-
- <div id="modal-18" class="popup-modal mfp-hide">
-
-  <img class="scale-with-grid" src="images/portfolio/modals/app_002_m.jpg" alt="" />
-
-  <div class="description-box">
-    <h4>Application</h4>
-    <p>AppDesign</p>
-       <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
-  </div>
-
-    <div class="link-box">
-       <a href="#">Details</a>
-     <a class="popup-modal-dismiss">Close</a>
-    </div>
-
-</div><!-- modal-18 End -->
-
-
-<div id="modal-19" class="popup-modal mfp-hide">
-
- <img class="scale-with-grid" src="images/portfolio/modals/app_003_m.jpg" alt="" />
-
- <div class="description-box">
-   <h4>Application</h4>
-   <p>AppDesign</p>
-      <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
- </div>
-
-   <div class="link-box">
-      <a href="#">Details</a>
-    <a class="popup-modal-dismiss">Close</a>
-   </div>
-
-</div><!-- modal-19 End -->
-
-
-<div id="modal-20" class="popup-modal mfp-hide">
-
- <img class="scale-with-grid" src="images/portfolio/modals/app_004_m.jpg" alt="" />
-
- <div class="description-box">
-   <h4>Application</h4>
-   <p>AppDesign</p>
-      <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
- </div>
-
-   <div class="link-box">
-      <a href="#">Details</a>
-    <a class="popup-modal-dismiss">Close</a>
-   </div>
-
-</div><!-- modal-20 End -->
-
-
-          <div id="modal-21" class="popup-modal mfp-hide">
-
-           <img class="scale-with-grid" src="images/portfolio/modals/app_001_m.jpg" alt="" />
-
-           <div class="description-box">
-             <h4>Application</h4>
-             <p>AppDesign</p>
-                <!-- <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span> -->
-           </div>
-
-             <div class="link-box">
-                <a href="#">Details</a>
-              <a class="popup-modal-dismiss">Close</a>
-             </div>
-
-
-          </div> <!-- modal-20 End -->
+  </section> <!-- Epilogue Section End-->
 
 
 
-        </div> <!-- row End -->
 
-     </section> <!-- Portfolio Section End-->
-
-
-     <!-- Epilogue Section
+  <!-- Testimonials Section
      ================================================== -->
-     <section id="epilogue">
+  <div id="testimonials">
 
-           <div class="row">
+    <div class="text-container">
 
-                 <h2>EPILOGUE</h2>
-                 <p>
-                   <hr/>
-                   <div id="ep01">
-                   길다면 긴 시간, 디자인을 하고 코딩을 하고 당연한 일을 당연히 하듯, 그러다 만들어진 작업물에 어쩔 수 없는 즐거움을 느낍니다.
-                   나는 앞으로도 언제나 좋아하는 것을 더욱더 잘하는 사람이 되기 위한 욕심을 잊지 않고 그렇게 살아가겠구나 하는 그런 마음.
-                   이것이 저의 직업이 저에게 주는 변함없는 선물이란 걸 작업이 하나 끝날 때마다 생각합니다. 그래서 저는 오늘도 최상의 결과물을 위해, 더 좋은 창작자가 되기 위해 노력하고 있습니다.
-                 </div><br>
-                   <div class="epen">Thank you for visiting my page.</div>
+      <div class="row">
 
-                   </p>
+        <div class="two columns header-col">
 
-                 </div>
-
-
-        </section>   <!-- Epilogue Section End-->
-
-
-
-
-     <!-- Testimonials Section
-     ================================================== -->
-     <div id="testimonials">
-
-        <div class="text-container">
-
-           <div class="row">
-
-              <div class="two columns header-col">
-
-                 <h1><span>Client Testimonials</span></h1>
-
-              </div>
-
-              <div class="ten columns flex-container">
-
-                 <div class="flexslider">
-
-                    <ul class="slides">
-
-                       <li>
-                          <blockquote>
-                             <p>The people who don't have talents want something to be done without effort They attribute their failure to lack of education, idea, capacity, or luck.  They don't think it's because they did not foucus on it enoughly All true ables include consciousness and conviction. It is that it must include difficulties to achieve it and that the consciousness that it can be done if only there are preverance and patience. So able is a kind of power of spirit.
-                             </p>
-                             <cite>Eric hoper </cite>
-                          </blockquote>
-                       </li> <!-- slide ends -->
-
-                       <li>
-                          <blockquote>
-                             <p>The secret of getting ahead is getting started. The secret of getting started is breaking your complex overwhelming tasks into small manageable tasks, and then starting on the first one.
-                             </p>
-                             <cite>Mark Twain</cite>
-                          </blockquote>
-                       </li> <!-- slide ends -->
-
-                    </ul>
-
-                 </div> <!-- div.flexslider ends -->
-
-              </div> <!-- div.flex-container ends -->
-
-           </div> <!-- row ends -->
-
-         </div>  <!-- text-container ends -->
-
-     </div> <!-- Testimonials Section End-->
-
-
-
-
-     <!-- footer
-     ================================================== -->
-     <footer>
-
-        <div class="row">
-
-           <div class="twelve columns">
-
-              <ul class="social-links">
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <!-- <li><a href="#"><i class="fab fa-twitch"></i></a></li> -->
-                <!-- <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li> -->
-                <!-- <li><a href="#"><i class="fab fa-tumblr"></i></a></li> -->
-                <!-- <li><a href="#"><i class="fab fa-linkedin"></i></a></li> -->
-                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                <!-- <li><a href="#"><i class="fab fa-dribbble"></i></a></li> -->
-                <!-- <li><a href="#"><i class="fab fa-line"></i></a></li> -->
-                <!-- <li><a href="#"><i class="xi-kakaotalk"></i></a></li> -->
-                <li><a href="mailto:miniboo2@naver.com"><i class="far fa-envelope"></i></a></li>
-                <!-- <li><a href="sms:01067291223"><i class="far fa-comment-alt"></i></a></li> -->
-                <li><a href="tel:01067291223"><i class="fas fa-mobile-alt"></i></a></li>
-              </ul>
-
-               <ul class="copyright">
-                 <li>&copy; Copyright 2019</li>
-                 <li>Design by NewD</a></li>
-              </ul>
-
-          </div>
-
-           <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+          <h1><span>Client Testimonials</span></h1>
 
         </div>
 
-     </footer>  <!--Footer End-->
+        <div class="ten columns flex-container">
+
+          <div class="flexslider">
+
+            <ul class="slides">
+
+              <li>
+                <blockquote>
+                  <p>The people who don't have talents want something to be done without effort They attribute their failure to lack of education, idea, capacity, or luck. They don't think it's because they did not foucus on it enoughly All true
+                    ables include consciousness and conviction. It is that it must include difficulties to achieve it and that the consciousness that it can be done if only there are preverance and patience. So able is a kind of power of spirit.
+                  </p>
+                  <cite>Eric hoper </cite>
+                </blockquote>
+              </li> <!-- slide ends -->
+
+              <li>
+                <blockquote>
+                  <p>The secret of getting ahead is getting started. The secret of getting started is breaking your complex overwhelming tasks into small manageable tasks, and then starting on the first one.
+                  </p>
+                  <cite>Mark Twain</cite>
+                </blockquote>
+              </li> <!-- slide ends -->
+
+            </ul>
+
+          </div> <!-- div.flexslider ends -->
+
+        </div> <!-- div.flex-container ends -->
+
+      </div> <!-- row ends -->
+
+    </div> <!-- text-container ends -->
+
+  </div> <!-- Testimonials Section End-->
 
 
 
-     <!-- Java Script
+
+  <!-- footer
      ================================================== -->
-     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-     <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-     <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+  <footer>
 
-     <script src="js/jquery.flexslider.js"></script>
-     <script src="js/waypoints.js"></script>
-     <script src="js/jquery.fittext.js"></script>
-     <script src="js/magnific-popup.js"></script>
-     <script src="js/init.js"></script>
+    <div class="row">
+
+      <div class="twelve columns">
+
+        <ul class="social-links">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <!-- <li><a href="#"><i class="fab fa-twitch"></i></a></li> -->
+          <!-- <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li> -->
+          <!-- <li><a href="#"><i class="fab fa-tumblr"></i></a></li> -->
+          <!-- <li><a href="#"><i class="fab fa-linkedin"></i></a></li> -->
+          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          <!-- <li><a href="#"><i class="fab fa-dribbble"></i></a></li> -->
+          <!-- <li><a href="#"><i class="fab fa-line"></i></a></li> -->
+          <!-- <li><a href="#"><i class="xi-kakaotalk"></i></a></li> -->
+          <li><a href="mailto:miniboo2@naver.com"><i class="far fa-envelope"></i></a></li>
+          <!-- <li><a href="sms:01067291223"><i class="far fa-comment-alt"></i></a></li> -->
+          <li><a href="tel:01067291223"><i class="fas fa-mobile-alt"></i></a></li>
+        </ul>
+
+        <ul class="copyright">
+          <li>&copy; Copyright 2019</li>
+          <li>Design by NewD</a></li>
+        </ul>
+
+      </div>
+
+      <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+    </div>
+
+  </footer>
+  <!--Footer End-->
+
+
+
+  <!-- Java Script
+     ================================================== -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')
+  </script>
+  <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/waypoints.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+  <script src="js/magnific-popup.js"></script>
+  <script src="js/init.js"></script>
 
 
 
 
 
-     <!-- 댓글서비스 라이브러리-->
-     	<!-- <h1>Comment</h1> -->
-     	<!-- 라이브리 시티 설치 코드 -->
-     	<div id="lv-container" data-id="city" data-uid="MTAyMC80MzI0Ni8xOTc5Mg==">
+  <!-- 댓글서비스 라이브러리-->
+  <!-- <h1>Comment</h1> -->
+  <!-- 라이브리 시티 설치 코드 -->
+  <!-- <div id="lv-container" data-id="city" data-uid="MTAyMC80MzI0Ni8xOTc5Mg==">
      		<script type="text/javascript">
      		 (function(d, s) {
      				 var j, e = d.getElementsByTagName(s)[0];
@@ -1308,14 +1219,14 @@
      		 })(document, 'script');
      		</script>
      	<noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
-     	</div>
-     	<!-- 시티 설치 코드 끝 -->
+     	</div> -->
+  <!-- 시티 설치 코드 끝 -->
 
 
 
-     <!-- 채팅기능 -->
-     	<!--Start of Tawk.to Script-->
-     <script type="text/javascript">
+  <!-- 채팅기능 -->
+  <!--Start of Tawk.to Script-->
+  <!-- <script type="text/javascript">
      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
      (function(){
      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -1325,10 +1236,10 @@
      s1.setAttribute('crossorigin','*');
      s0.parentNode.insertBefore(s1,s0);
      })();
-     </script>
-     <!--End of Tawk.to Script-->
+     </script> -->
+  <!--End of Tawk.to Script-->
 
 
-  </body>
+</body>
 
 </html>
